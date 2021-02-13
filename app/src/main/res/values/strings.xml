@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Recept-könyv</string>
+
+    <string name="monday_u"><u>Hétfő</u></string>
+    <string name="tuesday_u"><u>Kedd</u></string>
+    <string name="wednesday_u"><u>Szerda</u></string>
+    <string name="thursday_u"><u>Csütörtök</u></string>
+    <string name="friday_u"><u>Péntek</u></string>
+    <string name="saturday_u"><u>Szombat</u></string>
+    <string name="sunday_u"><u>Vasárnap</u></string>
+
+    <string name="share_text">com.example.szantog.Recipebook.share_text_copy_intent</string>
+    <string name="share_text_intent_title">com.example.szantog.Recipebook.share_text_intent_title</string>
+    <string name="share_text_intent_ingredients">com.example.szantog.Recipebook.share_text_intent_ingredients</string>
+    <string name="share_text_intent_description">com.example.szantog.Recipebook.share_text_intent_description</string>
+
+    <string name="bundle_title">com.example.szantog.Recipebook.bundle_title</string>
+    <string name="bundle_ingredients">com.example.szantog.Recipebook.bundle_ingredients</string>
+    <string name="bundle_description">com.example.szantog.Recipebook.bundle_description</string>
+</resources>

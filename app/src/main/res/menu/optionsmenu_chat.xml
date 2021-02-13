@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/chat_stopnetwork"
+        android:icon="@drawable/stop64x64"
+        android:title="Kapcsolat megszakítása"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/chat_login_name"
+        android:title="Név..."
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/chat_login_deletename"
+        android:title="Névtörlés"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/chat_delete_all_local_data"
+        android:title="Korábbi üzenetek törlése"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/chat_quit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Kilépés..."
+        app:showAsAction="collapseActionView" />
+
+</menu>

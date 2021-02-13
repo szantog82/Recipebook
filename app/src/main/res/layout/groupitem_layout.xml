@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightyellow"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/groupitem_image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10" />
+
+    <TextView
+        android:id="@+id/groupitem_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="100"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textColor="@color/darkblue"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/groupitem_addtodays"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="10"
+        android:src="@android:drawable/ic_input_add" />
+
+    <ImageView
+        android:id="@+id/groupitem_deleteitem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_weight="10"
+        android:src="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>

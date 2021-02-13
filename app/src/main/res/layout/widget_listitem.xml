@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/widget_listitem_linearlayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_listitem_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/darkblue"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/widget_listitem_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/widget_listitem_text1"
+            android:layout_below="@id/widget_listitem_text1"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/glacial_indifference_regular"
+            android:textColor="@color/darkblue"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/widget_listitem_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/widget_listitem_text1"
+            android:layout_below="@id/text2"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/glacial_indifference_regular"
+            android:textColor="@color/darkblue"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/widget_listitem_relativelayout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/widget_listitem_img"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/cookbook128x128" />
+
+    </RelativeLayout>
+
+</LinearLayout>

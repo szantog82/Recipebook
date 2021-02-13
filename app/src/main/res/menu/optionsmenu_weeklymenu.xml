@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/weeklemenu_menu_previous"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Előzők"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Törlés..."
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/quit"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Kilépés..."
+        app:showAsAction="always" />
+
+</menu>

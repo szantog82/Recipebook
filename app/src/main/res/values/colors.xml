@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#535F5F</color>
+    <color name="colorPrimaryDark">#CCA284</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="main_screen_background">#20D1A030</color>
+    <color name="item_child_background">#F0BBBBBB</color>
+
+    <color name="weeklymenu_screen_background">#D0AAAAAA</color>
+
+    <color name="widget_weekname_color">#0000FF</color>
+    <color name="widget_meal_color">#0000FF</color>
+
+    <color name="search_color">#FFF2F4F6</color>
+
+    <color name="lightyellow">#F0E7C4</color>
+    <color name="middleyellow">#E6CD9B</color>
+    <color name="darkyellow">#CCA284</color>
+
+    <color name="lightblue">#ECF0F1</color>
+    <color name="middleblue">#C8D8DE</color>
+    <color name="darkblue">#535F5F</color>
+
+    <color name="tooltip_background">#FF4081</color>
+    <color name="tooltip_textview">#FFDDCC</color>
+
+    <color name="widget_listitem_background">#10c7da</color>
+    <color name="widget_yellows">#fce78d</color>
+
+    <color name="intentreceiver_title">#4433FF50</color>
+    <color name="intentreceiver_ingredients">#44FF3350</color>
+    <color name="intentreceiver_description">#444433FF</color>
+
+</resources>

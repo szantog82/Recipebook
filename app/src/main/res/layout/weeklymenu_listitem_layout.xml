@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/weeklymenu_listview_dayname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/ff_meta_pro_book"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ViewSwitcher
+        android:id="@+id/weeklymenu_listview_viewswitcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateFirstView="true"
+        android:inAnimation="@android:anim/fade_in"
+        android:measureAllChildren="false"
+        android:outAnimation="@android:anim/fade_out">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/weeklymenu_listview_searchsimilarity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_search" />
+
+            <TextView
+                android:id="@+id/weeklymenu_listview_lunchtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/weeklymenu_listview_searchsimilarity"
+                android:fontFamily="@font/ff_meta_pro_book"
+                android:maxWidth="300dp"
+                android:textSize="@dimen/weeklymenu_textview" />
+
+            <TextView
+                android:id="@+id/weeklymenu_listview_dinnertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weeklymenu_listview_lunchtext"
+                android:layout_toRightOf="@id/weeklymenu_listview_searchsimilarity"
+                android:fontFamily="@font/ff_meta_pro_book"
+                android:textSize="@dimen/weeklymenu_textview" />
+
+
+            <ImageView
+                android:id="@+id/weeklymenu_listview_editbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:src="@android:drawable/ic_menu_edit" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/weeklymenu_listview_lunchedittext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ff_meta_pro_book"
+                android:hint="Ebéd..."
+                android:maxWidth="250dp"
+                android:textSize="@dimen/weeklymenu_textview" />
+
+            <AutoCompleteTextView
+                android:id="@+id/weeklymenu_listview_dinneredittext"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/weeklymenu_listview_lunchedittext"
+                android:fontFamily="@font/ff_meta_pro_book"
+                android:hint="Vacsora..."
+                android:maxWidth="250dp"
+                android:textSize="@dimen/weeklymenu_textview" />
+
+
+            <ImageView
+                android:id="@+id/weeklymenu_listview_editcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+            <ImageView
+                android:id="@+id/weeklymenu_listview_editsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/weeklymenu_listview_editcancel"
+                android:src="@android:drawable/ic_menu_save" />
+
+
+        </RelativeLayout>
+
+
+    </ViewSwitcher>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#55555555" />
+
+</LinearLayout>
